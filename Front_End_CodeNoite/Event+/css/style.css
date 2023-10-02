@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+
+.layout-grid{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header{
+    height: 60px;
+}
+
+header .header-flex{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header nav a:hover{
+    text-shadow: 0px 0px 6px rgba(249, 0, 61, 0.2);
+    background-color: white ;
+    color: #F9003D;
+}
+
+header .logoHead{
+    width: 115px;
+    height: 20px;
+    top: 33px;
+    left: 270px;
+}
+
+header .botaoLogin{
+    width: 115px;
+    height: 45px;
+    top: 20px;
+    left: 1215px;
+    border-radius: 5px;
+    text-align: center;
+
+    background-color: #B51D44;
+}
+
+
+main .banner{
+    background-color: #B51D44;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+main .banner .title-banner hr{
+    color: #3F3D56;
+}
+
